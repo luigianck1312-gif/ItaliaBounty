@@ -1,0 +1,18 @@
+name: ItaliaBounty
+version: 1.0.0
+main: it.italiabounty.ItaliaBounty
+api-version: 1.21
+description: Sistema taglie italiano
+authors: [ItaliaBounty]
+depend: [Vault]
+commands:
+  bounty:
+    description: Comando principale taglie
+    usage: /bounty [set <player> <importo>|cerca <nome>]
+permissions:
+  italiabounty.use:
+    description: Usa il sistema taglie
+    default: true
+  italiabounty.admin:
+    description: Permessi admin taglie
+    default: op
